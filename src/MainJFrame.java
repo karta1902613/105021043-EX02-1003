@@ -27,8 +27,8 @@ public class MainJFrame extends JFrame {
         setBounds(400,300,400,300);
         jtaA.setLineWrap(true);
         jtaP.setLineWrap(true);
-        jspL.setPreferredSize(new Dimension(100,80));
-        jspR.setPreferredSize(new Dimension(100,80));
+        jspL.setPreferredSize(new Dimension(150,80));
+        jspR.setPreferredSize(new Dimension(150,80));
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         cp=this.getContentPane();
         cp.setLayout(new BorderLayout(3,3));
@@ -62,7 +62,8 @@ public class MainJFrame extends JFrame {
         jbtnExam.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                jtaP.setText("TEST123");
+                jtaP.setText("Prior to the 2017 League of Legends World Championship Play-In Stage, Group D was viewed as a tricky group due to the looming threat of Team WE." +
+                        "Two weeks later, and Group D is now looking like a near-impossible miss for North America's Team SoloMid.");
             }
         });
         jbtnAddpw.addActionListener(new ActionListener(){
